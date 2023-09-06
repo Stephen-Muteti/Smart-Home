@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+}
+body{
+  padding: 0px;
+  margin: 0px;
+  margin: 0;
+  overflow-y: hidden;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 70px;
+  border-bottom: 1px solid #e7e7e7;
+  background: #fff;
+}
+
+.brand-name-container, .app-name{
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.app-title{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.container{
+  display: flex;
+}
+
+.table-wrapper{
+  width: fit-content;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.data-table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-head{
+  border-bottom: 1px solid #999;
+  height: 70px;
+}
+
+th, td{
+  padding: 20px 30px;
+}
+
+.status-holder{
+  display: flex;
+  align-items: center;
+}
+
+.status-holder span{
+  margin-right: 20px;
+}
+
+.visual-indicator{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.page-divider{
+  width: 1px;
+  background-color: #cacaca;
+  height: calc(100vh - 75px);
+}
+
+.key-title{
+  font-size: 20px;
+}
+
+.key-container{
+  width: 30%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.card-title{
+  margin-bottom: 5px !important;
+}
+
+  .main-content{
+    margin-left: 0px !important;
+    overflow-y: hidden;
+  }
+.simplebar-content{
+  padding-top: 10px !important;
+}
+
+.page-content{
+  max-height: 100vh;
+  overflow-y: auto;
+}
+@media screen and (max-width: 900px) {
+  .container{
+    display: block;
+  }
+
+
+  .table-wrapper{
+    width: fit-content;
+    margin: 0;
+    margin-top: 30px;
+  }
+
+
+  .key-container{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .page-divider{
+    display: none;
+  }
+
+  .table-wrapper{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  }
+
+@media screen and (max-width: 768px) {
+  .container{
+    display: block;
+  }
+
+
+  .table-wrapper{
+    width: fit-content;
+    margin: 0;
+    margin-top: 30px;
+  }
+
+
+  .key-container{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .page-divider{
+    display: none;
+  }
+
+  .table-wrapper{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  }
